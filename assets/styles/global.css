@@ -1,3 +1,44 @@
+/* Navbar menu */
+.navbar {
+    color: blue;
+    text-align: center;
+    padding: 2%;
+    background-color: yellow;
+}
+/* Zou de kleur moeten veranderen als een link actief is. */
+.nuxt-link-active {
+    color: red;
+}
+/* Sidebar menu */
+.sidebar {  
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: green;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+/* Menu links */
+.sidebar a {    
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+/* Kleur die de links krijgen als je met je muis er overheen zit. */
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+/* De main tekst, zodat het niet achter de sidebar komt. */
+.main { 
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
 p {
-    color:red
+    color:red;
 }
