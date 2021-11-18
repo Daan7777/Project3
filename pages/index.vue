@@ -20,10 +20,13 @@ export default {
       <NuxtLink to="/pagina1" target="_blank" prefetch>Pagina1</NuxtLink>
     </div>
       <div>
-        <sidebar />
+        <sidebar/>
       </div>
       <div class="main">
         <p>tekst</p>
+      </div>
+      <div>
+        <footer/>
       </div>
   </main>
 </template>
