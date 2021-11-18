@@ -15,9 +15,9 @@ export default {
 <template>
   <main>
     <div class="navbar nuxt-link-active">
-      <NuxtLink to="/" target="_blank" prefetch>Home page</NuxtLink>
-      <NuxtLink to="/about" target="_blank" prefetch>about</NuxtLink>
-      <NuxtLink to="/pagina1" target="_blank" prefetch>Test pagina</NuxtLink>
+      <NuxtLink to="/" target="_blank" prefetch>Home</NuxtLink>
+      <NuxtLink to="/about" target="_blank" prefetch>About</NuxtLink>
+      <NuxtLink to="/pagina1" target="_blank" prefetch>Pagina1</NuxtLink>
     </div>
       <div>
         <sidebar />
