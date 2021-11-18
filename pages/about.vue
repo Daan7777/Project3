@@ -1,14 +1,27 @@
+<script>
+export default {
+  head: {
+    title: 'About pagina',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'about page description'
+      }
+    ]
+  }
+}
+</script>
 <template>
   <main>
-    <head>
-    </head>
-    <body>
-      <div>
-        <sidebar />
-      </div>
-      <div class="main">
-        <p>tekst</p>
-      </div>
-    </body>
+    <div>
+      <header />
+    </div>
+    <div>
+      <sidebar />
+    </div>
+    <div class="main">
+      <p>tekst</p>
+    </div>
   </main>
 </template>
