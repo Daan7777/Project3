@@ -4,6 +4,7 @@
     text-align: center;
     padding: 2%;
     background-color: yellow;
+    word-spacing: 20px;
 }
 /* Zou de kleur moeten veranderen als een link actief is. */
 .nuxt-link-active {
