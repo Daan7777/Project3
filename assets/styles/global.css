@@ -56,6 +56,7 @@ p {
     padding:40px 0;
     background-color:#6394e2;
     color:#000000;
+    position: fixed;
   }
 
   .footer-basic ul {
