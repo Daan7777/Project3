@@ -15,10 +15,10 @@ export default {
 <template>
   <main>
     <div>
-      <header />
+      <header/>
     </div>
     <div>
-      <sidebar />
+      <sidebar/>
     </div>
     <div class="main">
       <p>tekst</p>
