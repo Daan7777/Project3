@@ -15,7 +15,7 @@ export default {
 <template>
   <main>
     <div>
-      <header/>
+      <navbar/>
     </div>
     <div>
       <sidebar/>
