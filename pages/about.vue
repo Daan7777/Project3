@@ -19,6 +19,7 @@ export default {
     </div>
     <div>
       <sidebar/>
+      <footer/>
     </div>
     <div class="main">
       <p>tekst</p>
