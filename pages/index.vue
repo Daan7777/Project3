@@ -22,6 +22,8 @@ export default {
       </div>
       <div class="main">
         <h1>Header tekst</h1>
+      </div>
+      <div class="main">
         <p>tekst</p>
       </div>
       <div>
