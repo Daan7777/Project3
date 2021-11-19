@@ -6,10 +6,12 @@
     background-color: yellow;
     word-spacing: 20px;
 }
+
 /* Zou de kleur moeten veranderen als een link actief is. */
 .nuxt-link-active {
     color: red;
 }
+
 /* Sidebar menu */
 .sidebar {  
     height: 100%;
@@ -22,6 +24,7 @@
     overflow-x: hidden;
     padding-top: 20px;
 }
+
 /* Menu links */
 .sidebar a {    
     padding: 6px 8px 6px 16px;
@@ -30,10 +33,12 @@
     color: #818181;
     display: block;
 }
+
 /* Kleur die de links krijgen als je met je muis er overheen zit. */
 .sidebar a:hover {
     color: #f1f1f1;
 }
+
 /* De main tekst, zodat het niet achter de sidebar komt. */
 .main { 
     margin-left: 160px;
@@ -52,6 +57,7 @@ p {
 .home-enter, .home-leave-active { 
     opacity: 0; 
 }
+
 /* footer CSS */
 .footer-basic {
     padding:40px 0;
