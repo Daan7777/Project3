@@ -26,9 +26,6 @@ export default {
       <div class="main">
         <p>tekst</p>
       </div>
-      <div>
-        <footer/>
-      </div>
   </main>
 </template>
 <script>
