@@ -14,15 +14,14 @@ export default {
 </script>
 <template>
   <main>
-    <div class="navbar nuxt-link-active">
-      <NuxtLink to="/" target="_blank" prefetch>Home</NuxtLink>
-      <NuxtLink to="/about" target="_blank" prefetch>About</NuxtLink>
-      <NuxtLink to="/pagina1" target="_blank" prefetch>Pagina1</NuxtLink>
+    <div>
+      <navbar/>
     </div>
       <div>
         <sidebar/>
       </div>
       <div class="main">
+        <h1>Header tekst</h1>
         <p>tekst</p>
       </div>
       <div>
