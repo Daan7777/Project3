@@ -8,13 +8,14 @@
 </template>
 <script>
 export default {
-  async asyncData({ params, redirect }) {
+  async asyncData ({ params, redirect }) {
     const mountains = await fetch(
       'https://api.nuxtjs.dev/mountains'
-    ).then((res) => res.json())
-
+    ).then((res) => {
+      return res.json()
+    })
     const filteredMountain = mountains.find(
-      (el) =>
+      ({ el }) =>
         el.continent.toLowerCase() === params.continent &&
         el.slug === params.mountain
     )
