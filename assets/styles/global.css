@@ -28,6 +28,8 @@ main {
 
 img {
   margin-bottom: 2rem;
+  background-color: transparent;
+  display: inline-block;
 }
 
 ul {
