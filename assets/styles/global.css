@@ -1,121 +1,52 @@
-/* Navbar menu */
-.navbar {
-    color: blue;
-    text-align: center;
-    padding: 2%;
-    background-color: yellow;
-    word-spacing: 20px;
+:root {
+  --primary-color: #00c58e;
 }
 
-/* Zou de kleur moeten veranderen als een link actief is. */
-.nuxt-link-active {
-    color: red;
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  margin: 0;
 }
 
-/* Sidebar menu */
-.sidebar {  
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: green;
-    overflow-x: hidden;
-    padding-top: 20px;
+a {
+  color: inherit;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: none;
 }
 
-/* Menu links */
-.sidebar a {    
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
+a:hover {
+  text-decoration: underline;
 }
 
-/* Kleur die de links krijgen als je met je muis er overheen zit. */
-.sidebar a:hover {
-    color: #f1f1f1;
+main {
+  margin: 0 auto;
+  margin-top: 0px;
+  text-align: center;
 }
 
-/* De main tekst, zodat het niet achter de sidebar komt. */
-.main { 
-    margin-left: 160px;
-    padding: 0px 10px;
-    text-align: center;
+img {
+  margin-bottom: 1rem;
 }
 
-p {
-    color:red;
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+li {
+  margin: 0 0.5rem;
+  padding: 0.25rem;
+  font-size: 1.2rem;
 }
 
-.home-enter-active, .home-leave-active { 
-    transition: opacity .5s; 
+nav {
+  padding: 0 1rem;
 }
-
-.home-enter, .home-leave-active { 
-    opacity: 0; 
+a.nuxt-link-exact-active {
+  color: #00c58e;
 }
-
-/* footer CSS */
-.footer-basic {
-    padding:40px 0;
-    background-color:#6394e2;
-    color:#000000;
-    position: fixed;
-  }
-
-  .footer-basic ul {
-    padding:0;
-    list-style:none;
-    text-align:center;
-    font-size:18px;
-    line-height:1.6;
-    margin-bottom:0;
-  }
-
-  .footer-basic li {
-    padding:0 10px;
-  }
-
-  .footer-basic ul a {
-    color:inherit;
-    text-decoration:none;
-    opacity:0.8;
-  }
-
-  .footer-basic ul a:hover {
-    opacity:1;
-  }
-
-  .footer-basic .social {
-    text-align:center;
-    padding-bottom:25px;
-  }
-
-  .footer-basic .social > a {
-    font-size:24px;
-    width:40px;
-    height:40px;
-    line-height:40px;
-    display:inline-block;
-    text-align:center;
-    border-radius:50%;
-    border:1px solid #ccc;
-    margin:0 8px;
-    color:inherit;
-    opacity:0.75;
-  }
-
-  .footer-basic .social > a:hover {
-    opacity:0.9;
-  }
-
-  .footer-basic .copyright {
-    margin-top:15px;
-    text-align:center;
-    font-size:13px;
-    color:rgb(102, 102, 102);
-    margin-bottom:0;
-  }
