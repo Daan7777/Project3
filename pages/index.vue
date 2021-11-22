@@ -15,10 +15,7 @@ export default {
 <template>
   <main>
     <div>
-      <navbar />
-    </div>
-    <div>
-      <sidebar />
+      <bootstrap />
     </div>
     <div class="main">
       <h1>Header tekst</h1>
@@ -26,6 +23,20 @@ export default {
     <div class="main">
       <p>tekst</p>
     </div>
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <NuxtLink to="/">Mountains</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/rivers">Rivers</NuxtLink>
+          </li>
+        </ul>
+      </nav>
+      <img src="~/assets/logo.svg" />
+      <Nuxt />
+  </div>
     <div class="main">
       <ul v-for="mountain in mountains" :key="mountain.id">
         <NuxtLink :to="`${mountain.continent.toLowerCase()}/${mountain.slug}`">
