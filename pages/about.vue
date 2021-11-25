@@ -15,11 +15,7 @@ export default {
 <template>
   <main>
     <div>
-      <navbar/>
-    </div>
-    <div>
-      <sidebar/>
-      <footer/>
+      <bootstrap />
     </div>
     <div class="main">
       <p>tekst</p>
