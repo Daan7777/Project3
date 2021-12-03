@@ -1,10 +1,10 @@
 <script>
 import bootstrap from '../components/bootstrap.vue'
-import footer from '../components/footer.vue'
+import footerVue from '../components/footer.vue'
 export default {
   components: {
     bootstrap,
-    footer
+    footerVue
   },
   head: {
     title: 'Home page',
@@ -113,7 +113,7 @@ export default {
     </div>
 
     <div>
-      <footer />
+      <footer-vue />
     </div>
   </main>
 </template>
