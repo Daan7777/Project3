@@ -1,5 +1,7 @@
 <script>
+import bootstrap from '../components/bootstrap.vue'
 export default {
+  components: { bootstrap },
   head: {
     title: 'Home page',
     meta: [
@@ -14,26 +16,9 @@ export default {
 </script>
 <template>
   <main>
-    <div class="bg-gray-100 text-gray-600 px-6 lg:px-8 py-4 lg:py-5">
-      <div class="max-w-screen-xl mx-auto flex justify-between items-center relative">
-        <a href="#" class="block flex-shrink-0">
-          <img class="h-9" src="/images/boxify-logo.svg" alt="logo placeholder">
-        </a>
-        <div class="flex justify-between space-x-4 md:space-x-10 flex-shrink-1 md:flex-grow-0">
-          <nav class="hidden md:flex flex-col justify-center items-center p-8 md:p-0 space-y-4 md:space-y-0 md:flex-row md:space-x-4 lg:space-x-8 font-semibold absolute top-16 md:top-0 left-0 w-full md:w-auto  md:relative bg-gray-200 md:bg-transparent">
-            <a href="#" class="hover:opacity-70">Home</a>
-            <a href="#" class="hover:opacity-70">Services</a>
-            <a href="#" class="hover:opacity-70">Pricing</a>
-            <a href="#" class="hover:opacity-70">Blog</a>
-            <a href="#" class="hover:opacity-70">Contact</a>
-          </nav>
-          <button class="w-9 bg-gray-600 p-2 rounded-md text-gray-200 block md:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
-            </svg>
-          </button>
-        </div>
-      </div>
+    <div>
+      <bootstrap />
+    </div>
       <div class="max-w-screen-xl mx-auto text-center mt-8 lg:mt-20 xl:mt-32 mb-8 lg:mb-20 xl:mb-32">
         <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-700 font-medium">Buy our awesome product now</h2>
         <p class="text-xl  text-gray-600 mt-4 max-w-3xl mx-auto">World among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath</p>
