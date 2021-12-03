@@ -1,5 +1,7 @@
 <script>
+import bootstrap from '../components/bootstrap.vue'
 export default {
+  components: { bootstrap },
   head: {
     title: 'About pagina',
     meta: [
