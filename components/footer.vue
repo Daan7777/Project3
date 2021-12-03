@@ -6,7 +6,9 @@
       </div>
       <div class="max-w-screen-xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-x-8">
         <div>
-          <h5 class="text-xl font-semibold text-gray-700">Product</h5>
+          <h5 class="text-xl font-semibold text-gray-700">
+            Product
+          </h5>
           <nav class="mt-4">
             <ul class="space-y-2">
               <li>
@@ -19,7 +21,9 @@
           </nav>
         </div>
         <div>
-          <h5 class="text-xl font-semibold text-gray-700">Industries</h5>
+          <h5 class="text-xl font-semibold text-gray-700">
+            Industries
+          </h5>
           <nav class="mt-4">
             <ul class="space-y-2">
               <li>
@@ -32,7 +36,9 @@
           </nav>
         </div>
         <div>
-          <h5 class="text-xl font-semibold text-gray-700">About us</h5>
+          <h5 class="text-xl font-semibold text-gray-700">
+            About us
+          </h5>
           <nav class="mt-4">
             <ul class="space-y-2">
               <li>
@@ -45,7 +51,9 @@
           </nav>
         </div>
         <div>
-          <h5 class="text-xl font-semibold text-gray-700">Legal</h5>
+          <h5 class="text-xl font-semibold text-gray-700">
+            Legal
+          </h5>
           <nav class="mt-4">
             <ul class="space-y-2">
               <li>
