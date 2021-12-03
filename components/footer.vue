@@ -12,10 +12,14 @@
           <nav class="mt-4">
             <ul class="space-y-2">
               <li>
-                <a href="#" class="font-normal text-base hover:text-gray-400">Landingpages</a>
+                <a href="#" class="font-normal text-base hover:text-gray-400">
+                  Landingpages
+                </a>
               </li>
               <li>
-                <a href="#" class="font-normal text-base hover:text-gray-400">Features</a>
+                <a href="#" class="font-normal text-base hover:text-gray-400">
+                  Features
+                </a>
               </li>
             </ul>
           </nav>
@@ -27,10 +31,14 @@
           <nav class="mt-4">
             <ul class="space-y-2">
               <li>
-                <a href="#" class="font-normal text-base hover:text-gray-400">Employment</a>
+                <a href="#" class="font-normal text-base hover:text-gray-400">
+                  Employment
+                </a>
               </li>
               <li>
-                <a href="#" class="font-normal text-base hover:text-gray-400">Childcare</a>
+                <a href="#" class="font-normal text-base hover:text-gray-400">
+                  Childcare
+                </a>
               </li>
             </ul>
           </nav>
@@ -42,10 +50,14 @@
           <nav class="mt-4">
             <ul class="space-y-2">
               <li>
-                <a href="#" class="font-normal text-base hover:text-gray-400">Company</a>
+                <a href="#" class="font-normal text-base hover:text-gray-400">
+                  Company
+                </a>
               </li>
               <li>
-                <a href="#" class="font-normal text-base hover:text-gray-400">Download brochure</a>
+                <a href="#" class="font-normal text-base hover:text-gray-400">
+                  Download brochure
+                </a>
               </li>
             </ul>
           </nav>
@@ -57,10 +69,14 @@
           <nav class="mt-4">
             <ul class="space-y-2">
               <li>
-                <a href="#" class="font-normal text-base hover:text-gray-400">Terms and conditions</a>
+                <a href="#" class="font-normal text-base hover:text-gray-400">
+                  Terms and conditions
+                </a>
               </li>
               <li>
-                <a href="#" class="font-normal text-base hover:text-gray-400">Security</a>
+                <a href="#" class="font-normal text-base hover:text-gray-400">
+                  Security
+                </a>
               </li>
             </ul>
           </nav>
