@@ -1,27 +1,7 @@
-<script>
-import bootstrap from '../components/bootstrap.vue'
-import footerVue from '../components/footer.vue'
-export default {
-  components: {
-    bootstrap,
-    footerVue
-  },
-  head: {
-    title: 'bergen page',
-    meta: [
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'bergen page description'
-      }
-    ]
-  }
-}
-</script>
 <template>
   <div>
+    <bootstrap />
     <div>
-      <bootstrap />
       <nav>
         <ul>
           <li>
@@ -46,9 +26,6 @@ export default {
         <li>{{ mountain.title }}</li>
       </NuxtLink>
     </ul>
-  </div>
-  <div>
-    <footer />
   </div>
 </template>
 <script>
