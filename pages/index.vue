@@ -1,10 +1,12 @@
 <script>
 import bootstrap from '../components/bootstrap.vue'
 import footerVue from '../components/footer.vue'
+import navbar from '../components/navbar.vue'
 export default {
   components: {
     bootstrap,
-    footerVue
+    footerVue,
+    navbar
   },
   head: {
     title: 'Home page',
@@ -22,6 +24,7 @@ export default {
   <main>
     <div>
       <bootstrap />
+      <navbar />
     </div>
     <div class="max-w-screen-xl mx-auto text-center mt-8 lg:mt-20 xl:mt-32 mb-8 lg:mb-20 xl:mb-32">
       <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-700 font-medium">
