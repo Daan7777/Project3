@@ -1,6 +1,5 @@
 <template>
   <div>
-    <bootstrap />
     <div>
       <nav>
         <ul>
