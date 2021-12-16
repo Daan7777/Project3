@@ -3,7 +3,7 @@
     <h1>Continent: {{ continent }}</h1>
     <h2>Mountain: {{ mountain }}</h2>
     <p>Path: {{ $route.path }}</p>
-    <NuxtLink to="/">
+    <NuxtLink to="/bergen">
       Back to Mountains
     </NuxtLink>
   </div>
