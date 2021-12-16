@@ -45,7 +45,6 @@ export default {
       <img class="h-12 p-1 self-end justify-self-center opacity-90" src="/images/pathway-logo.svg" alt="logo placeholder">
       <img class="h-12 p-1 self-end justify-self-center opacity-90" src="/images/feedback-logo.svg" alt="logo placeholder">
     </div>
-    </div>
     <div class="bg-gray-50 text-gray-600 px-6 lg:px-8 pt-12 pb-20">
       <div class="max-w-screen-xl mx-auto">
         <h2 class="text-2xl sm:text-3xl md:text-4xl text-gray-700 font-medium text-center">
