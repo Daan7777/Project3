@@ -27,6 +27,7 @@ export default {
       <navbar />
     </div>
     <div class="main">
+      <h1>Robin is een raar ventje</h1>
       <p>tekst</p>
     </div>
     <div>
