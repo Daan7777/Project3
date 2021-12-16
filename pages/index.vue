@@ -37,7 +37,6 @@ export default {
         Order now
       </a>
     </div>
-
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid grid-cols-2 sm:grid-cols-3 space-y-5 sm:space-y-3 xl:grid-cols-6 col-gap-6 mt-8 lg:mt-10 mb-12 lg:mb-20">
       <img class="h-12 p-1 self-end justify-self-center opacity-90" src="/images/boxify-logo.svg" alt="logo placeholder">
       <img class="h-10 p-1 self-end justify-self-center opacity-90" src="/images/edge-logo.svg" alt="logo placeholder">
