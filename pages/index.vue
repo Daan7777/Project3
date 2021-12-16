@@ -46,9 +46,7 @@ export default {
       <img class="h-12 p-1 self-end justify-self-center opacity-90" src="/images/pathway-logo.svg" alt="logo placeholder">
       <img class="h-12 p-1 self-end justify-self-center opacity-90" src="/images/feedback-logo.svg" alt="logo placeholder">
     </div>
-
     </div>
-
     <div class="bg-gray-50 text-gray-600 px-6 lg:px-8 pt-12 pb-20">
       <div class="max-w-screen-xl mx-auto">
         <h2 class="text-2xl sm:text-3xl md:text-4xl text-gray-700 font-medium text-center">
@@ -121,7 +119,6 @@ export default {
         </div>
       </div>
     </div>
-
     <div class="bg-gray-50 text-gray-600 px-6 lg:px-8 py-12">
       <div class="max-w-screen-xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-x-8">
         <div class="bg-gray-200 px-6 pt-20 lg:pt-32 xl:pt-48 pb-6 rounded">
@@ -132,7 +129,6 @@ export default {
             One morning, when Gregor Samsa woke from troubled dreams, he found It showed transformed.
           </p>
         </div>
-
         <div class="bg-gray-200 px-6 pt-20 lg:pt-32 xl:pt-48 pb-6 rounded">
           <h3 class="font-semibold text-lg mb-2">
             How about sleep a little bit
@@ -141,7 +137,6 @@ export default {
             Doing business like this takes much more effort than doing your own business at home, on top.
           </p>
         </div>
-
         <div class="bg-gray-200 px-6 pt-20 lg:pt-32 xl:pt-48 pb-6 rounded">
           <h3 class="font-semibold text-lg mb-2">
             But who knows, would do it
@@ -152,7 +147,6 @@ export default {
         </div>
       </div>
     </div>
-
     <div>
       <footer-vue />
     </div>
