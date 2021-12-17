@@ -59,7 +59,7 @@
                 <li><a class="dropdown-item" href="/bergen">Bergen pagina</a></li>
                 <li><a class="dropdown-item" href="/robin">Robin pagina</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="/daan">Daan pagina</a></li>
               </ul>
             </li>
             <li class="nav-item">
