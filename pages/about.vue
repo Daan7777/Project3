@@ -27,7 +27,7 @@ export default {
       <navbar />
     </div>
     <div class="main">
-      <p>tekst</p>
+      <p>tekst </p>
     </div>
     <div>
       <footerVue />
