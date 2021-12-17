@@ -20,3 +20,18 @@ export default {
   }
 }
 </script>
+<template>
+  <main>
+    <div>
+      <bootstrap />
+      <navbar />
+    </div>
+    <div class="main">
+      <h1>tekst</h1>
+      <p>tekst</p>
+    </div>
+    <div>
+      <footerVue />
+    </div>
+  </main>
+</template>
