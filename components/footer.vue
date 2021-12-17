@@ -98,11 +98,11 @@
       </div>
       <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 mt-8 lg:mt-12">
         <nav class="flex flex-wrap justify-center space-x-6">
-          <a href="#" class="font-normal text-sm hover:text-gray-400 mb-2">Privacy</a>
-          <a href="#" class="font-normal text-sm hover:text-gray-400 mb-2">Content Terms Notice</a>
-          <a href="#" class="font-normal text-sm hover:text-gray-400 mb-2">Legal</a>
-          <a href="#" class="font-normal text-sm hover:text-gray-400 mb-2">Features</a>
-          <a href="#" class="font-normal text-sm hover:text-gray-400 mb-2">Landing Pages</a>
+          <a href="#" class="font-normal text-sm hover:text-gray-400 mb-2">Privacy </a>
+          <a href="#" class="font-normal text-sm hover:text-gray-400 mb-2">Content Terms Notice </a>
+          <a href="#" class="font-normal text-sm hover:text-gray-400 mb-2">Legal </a>
+          <a href="#" class="font-normal text-sm hover:text-gray-400 mb-2">Features </a>
+          <a href="#" class="font-normal text-sm hover:text-gray-400 mb-2">Landing Pages </a>
         </nav>
       </div>
     </footer>
