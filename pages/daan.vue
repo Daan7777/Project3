@@ -27,8 +27,8 @@ export default {
       <navbar />
     </div>
     <div class="main">
-      <h1>tekst</h1>
-      <p>tekst</p>
+      <h1>Pagina over Daan</h1>
+      <p>Beter dan Robin</p>
     </div>
     <div>
       <footerVue />
