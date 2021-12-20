@@ -14,6 +14,13 @@
             </NuxtLink>
           </li>
         </ul>
+        <ul>
+          <li>
+              <NuxtLink to="/">
+              Home
+            </NuxtLink>
+          </li>
+        </ul>
       </nav>
       <main>
         <img src="~/assets/logo.svg" />
