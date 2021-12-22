@@ -39,6 +39,12 @@ export default {
     '@nuxtjs/tailwindcss'
   ],
 
+  modules: ['@nuxtjs/strapi'],
+  strapi: {
+  entities: ['restaurants', 'categories'],
+  url: 'http://localhost:1337'
+  },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
