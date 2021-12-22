@@ -64,12 +64,12 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link disabled"
-                href="#"
+                class="nav-link"
+                href="/restaurant"
                 tabindex="-1"
                 aria-disabled="true"
               >
-                Disabled
+                database
               </a>
             </li>
           </ul>
