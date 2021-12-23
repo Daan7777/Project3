@@ -12,20 +12,8 @@
 </template>
 
 <script>
-export default {
-  name: 'App',
-  data () {
-    return {
-      restaurants: [],
-      error: null
-    }
-  },
-  async mounted () {
-    try {
-      this.restaurants = await this.$strapi.$restaurants.find()
-    } catch (error) {
-      this.error = error
-    }
-  }
+async asyncData({ $axios }) {
+  const ip = await $axios.$get('http://icanhazip.com')
+  return { ip }
 }
 </script>
